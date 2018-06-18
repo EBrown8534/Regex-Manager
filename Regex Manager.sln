@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regex Manager", "Regex Manager\Regex Manager.csproj", "{0D2DD57E-DB07-400F-BB5C-8FA4382DF4B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{706F28BD-A9B2-4B18-B64E-DEC142406C4C}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D2DD57E-DB07-400F-BB5C-8FA4382DF4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2DD57E-DB07-400F-BB5C-8FA4382DF4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2DD57E-DB07-400F-BB5C-8FA4382DF4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2DD57E-DB07-400F-BB5C-8FA4382DF4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4212C00E-5B67-45C9-8AE3-AFC530104CD9}
+	EndGlobalSection
+EndGlobal
