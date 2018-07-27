@@ -222,7 +222,7 @@ namespace Regex_Manager
             {
                 try
                 {
-                    txtReplacementText.Text = Regex.Replace(txtRegexText.Text.Replace("\r\n", "\n"), txtRegex.Text, txtReplacement.Text, RegexOptions.Multiline).Replace("\n", "\r\n");
+                    txtReplacementText.Text = Regex.Replace(txtRegexText.Text.Replace(Environment.NewLine, "\n"), txtRegex.Text, txtReplacement.Text.Replace(@"\r", "\r").Replace(@"\n", "\n").Replace(@"\t", "\t"), RegexOptions.Multiline).Replace("\n", Environment.NewLine);
                 }
                 catch (ArgumentException) { }
             }
